@@ -16,9 +16,9 @@ Ecoleta é uma aplicação web que ajuda pessoas a encontrarem pontos de coleta 
 - Interface amigável e responsiva.
 ## Tecnologias utilizadas
 
-** Front-end:** HTML, CSS, JavaScript
+**Front-end:** HTML, CSS, JavaScript
 
-** Back-end:** Node, Express, SQLite, Nunjucks (template engine)
+**Back-end:** Node, Express, SQLite, Nunjucks (template engine)
 
 
 ## Rodando localmente 
