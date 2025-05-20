@@ -9,11 +9,15 @@
   </header>
   <main>
     <h1>Seu ponto de encontro com a reciclagem.</h1>
-    <p>Descubra onde reciclar. Faça a diferença com um clique.</p>
+    <p>Descubra onde fazer o descarte de resíduos corretamente. Faça a diferença com um clique.</p>
     <a href="#"><span></span><strong>Pesquisar pontos de coleta</strong></a>
   </main>
 </div>
-{% endblock content %} {% block modal %} {% include "partials/modal.html" %} {%
-endblock modal %} {% block scripts %}
+
+{% endblock content %}
+{% block modal %}
+  {% include "partials/page-footer.html" %}
+  {% include "partials/modal.html" %}
+{%endblock modal %} {% block scripts %}
 <script src="/scripts/index.js"></script>
 {% endblock scripts %}

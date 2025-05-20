@@ -1,3 +1,11 @@
+@media (max-width: 500px) {
+  footer {
+    font-size: 14px;
+    line-height: 2vh;
+    height: 5vh;
+    padding: 5px 2px;
+  }
+}
 @media (max-width: 900px) {
   #page-home {
     background-position-x: 70vw;
@@ -43,14 +51,37 @@
     transform: scale(0.8);
   }
 }
+@media (max-width: 1100px) {
+  #page-home header a {
+    bottom: 100px;
+  }
+}
 @media (max-width: 1700px) {
   #page-home {
     background-position-x: 40vw;
   }
 }
-
-@media (max-height: 760px) {
+@media (max-height: 900px) {
   #page-home {
     background-position-y: 200px;
+  }
+  #page-home main p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  #page-home header a {
+    width: 300px;
+    justify-content: center;
+    bottom: 80px;
+  }
+
+  #page-home main a {
+    height: 50px;
+    margin-top: 20px;
+  }
+
+  #page-home main a span {
+    height: 50px;
   }
 }
